@@ -4,7 +4,7 @@ import { GoArrowRight } from 'react-icons/go';
 const Search = () => {
     const [clicked, setClicked] = useState(false);
     return (
-        <div className="flex h-[30vh] flex-col items-center justify-center gap-y-3 bg-paleBlue md:h-[40vh] lg:h-[50vh]">
+        <div className="flex h-[30vh] flex-col items-center justify-center gap-y-3 bg-paleBlue md:h-[30vh] lg:h-[30vh]">
             <div className="text-3xl md:text-4xl lg:text-5xl">
                 How can we Help?
             </div>
